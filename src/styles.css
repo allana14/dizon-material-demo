@@ -1,1 +1,87 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body{
+    background-color: #f2f2f2;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+.text{
+    color: #333333;
+    font-family: "Glacial indifference";
+    font-size: 18px;
+}
+.nav{
+    font-size: 20px;
+}
+h1{
+    text-align: center;
+    font-family: 'luna';
+    font-weight: bolder;
+    padding: 10px 0 0 0 ;
+    margin: 0 10px 0 0;
+}
+mat-card{
+    width: 100%;
+    text-align: center;
+
+} 
+ 
+  .example-margin {
+    margin:  10px 0 10px 0;
+  }
+
+.container-two{
+    background-color: #FFF;
+    border-radius: 5px;
+    box-shadow: 2px 1px #888888;
+}
+
+mat-radio{
+    margin: 50px 50px 50px 50px ;
+}
+h2{
+    text-align: center;
+
+}
+.sizes{
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 0 46.5%;
+}
+.radio-button{
+    padding: 0 0 10px 0;
+}
+button {
+    transition-duration: 0.4s;
+    
+}
+  button:hover {
+    background-color: #262726; 
+    color: white;
+  }
+  .dialog-button{
+  background-color: #4a4b4a; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  }
+  .cont-but{
+      margin-top: 30px;
+      margin-left:46% ;
+  }
+  :host {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  mat-form-field{
+      padding-left: 20px;
+      margin-left: 42.5%;
+  }
